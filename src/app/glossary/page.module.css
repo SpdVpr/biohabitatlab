@@ -1,0 +1,75 @@
+.main {
+    padding-top: 80px;
+}
+
+.header {
+    padding: var(--space-3xl) 0;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    text-align: center;
+}
+
+.header h1 {
+    margin-top: var(--space-sm);
+}
+
+.header .abstract {
+    margin: var(--space-lg) auto 0;
+}
+
+.glossarySection {
+    padding: var(--space-3xl) 0;
+    background: var(--color-background);
+}
+
+.categoryBlock {
+    margin-bottom: var(--space-3xl);
+}
+
+.categoryBlock:last-child {
+    margin-bottom: 0;
+}
+
+.categoryTitle {
+    margin-bottom: var(--space-xl);
+}
+
+.termsList {
+    display: grid;
+    gap: var(--space-md);
+}
+
+.termItem {
+    padding: var(--space-lg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+}
+
+.term {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.unit {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-focus-blue);
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--color-focus-blue-light);
+    border-radius: 4px;
+}
+
+.definition {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+    margin-top: var(--space-sm);
+}

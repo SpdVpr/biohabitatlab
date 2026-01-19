@@ -1,141 +1,337 @@
-.page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
-}
-
 .main {
-  display: flex;
-  min-height: 100vh;
-  width: 100%;
-  max-width: 800px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
+  padding-top: 80px;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 24px;
+/* ===================================================
+   HERO SECTION - Premium & Inviting
+   =================================================== */
+.hero {
+  padding: var(--space-4xl) 0;
+  background: var(--color-surface);
 }
 
-.intro h1 {
-  max-width: 320px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
-  text-wrap: balance;
-  color: var(--text-primary);
-}
-
-.intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
-  text-wrap: balance;
-  color: var(--text-secondary);
-}
-
-.intro a {
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.ctas {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 440px;
-  gap: 16px;
-  font-size: 14px;
-}
-
-.ctas a {
-  display: flex;
-  justify-content: center;
+.heroContent {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: var(--space-3xl);
   align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
-  cursor: pointer;
-  width: fit-content;
-  font-weight: 500;
 }
 
-a.primary {
-  background: var(--text-primary);
-  color: var(--background);
-  gap: 8px;
+.heroText {
+  max-width: 520px;
 }
 
-a.secondary {
-  border-color: var(--button-secondary-border);
+.heroTitle {
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-top: var(--space-sm);
+  line-height: 1.1;
 }
 
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-focus-blue);
+  margin-top: var(--space-md);
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin-top: var(--space-lg);
+}
+
+.heroCta {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+}
+
+.heroImage {
+  position: relative;
+}
+
+.heroImg {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
+}
+
+/* ===================================================
+   PILLARS SECTION
+   =================================================== */
+.pillarsSection {
+  padding: var(--space-4xl) 0;
+  background: var(--color-background);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.sectionHeader h2 {
+  margin-top: var(--space-sm);
+}
+
+.sectionHeader .abstract {
+  margin: var(--space-lg) auto 0;
+  text-align: center;
+}
+
+.pillarsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+.pillar {
+  position: relative;
+  padding: var(--space-xl);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+  display: flex;
+  flex-direction: column;
+}
+
+.pillar:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.pillarId {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.1em;
+}
+
+.pillarTitle {
+  font-size: 1.375rem;
+  margin-top: var(--space-md);
+  color: var(--color-text-primary);
+}
+
+.pillarDesc {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  margin-top: var(--space-sm);
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.pillarArrow {
+  position: absolute;
+  bottom: var(--space-xl);
+  right: var(--space-xl);
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.pillar:hover .pillarArrow {
+  transform: translateX(4px);
+  color: var(--color-focus-blue);
+}
+
+/* Accent variants */
+.pillarFocus {
+  border-top: 3px solid var(--color-focus-blue);
+}
+
+.pillarRecovery {
+  border-top: 3px solid var(--color-deep-amber);
+}
+
+/* ===================================================
+   BLUEPRINTS SECTION
+   =================================================== */
+.blueprintsSection {
+  padding: var(--space-4xl) 0;
+  background: var(--color-surface);
+}
+
+.blueprintsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.blueprintCard {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.blueprintCard:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.blueprintImage {
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+
+.blueprintContent {
+  padding: var(--space-lg);
+}
+
+.blueprintTitle {
+  font-size: 1.125rem;
+  color: var(--color-text-primary);
+  margin-top: var(--space-sm);
+}
+
+.blueprintSubtitle {
+  font-size: 0.875rem;
+  color: var(--color-focus-blue);
+  margin-top: var(--space-xs);
+}
+
+.blueprintStats {
+  display: flex;
+  gap: var(--space-lg);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+/* ===================================================
+   TECH SECTION
+   =================================================== */
+.techSection {
+  padding: var(--space-4xl) 0;
+  background: var(--color-background);
+}
+
+.techGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+
+.techImage {
+  position: relative;
+}
+
+.techImg {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
+}
+
+.techContent h2 {
+  margin-top: var(--space-sm);
+}
+
+.techContent p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin-top: var(--space-lg);
+}
+
+.techList {
+  list-style: none;
+  margin-top: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.techList li {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  padding-left: var(--space-lg);
+  position: relative;
+}
+
+.techList li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--color-focus-blue);
+}
+
+.techList li strong {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.techContent .btn {
+  margin-top: var(--space-xl);
+}
+
+/* ===================================================
+   RESPONSIVE
+   =================================================== */
+@media (max-width: 1024px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
+  .heroText {
+    max-width: 100%;
+  }
+
+  .heroCta {
+    justify-content: center;
+  }
+
+  .heroImage {
+    order: -1;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .blueprintsList {
+    grid-template-columns: 1fr;
+  }
+
+  .techGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .techImage {
+    order: -1;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .techContent {
+    text-align: center;
+  }
+
+  .techList {
+    text-align: left;
+    max-width: 500px;
+    margin: var(--space-xl) auto 0;
   }
 }
 
-@media (max-width: 600px) {
-  .main {
-    padding: 48px 24px;
+@media (max-width: 768px) {
+  .pillarsGrid {
+    grid-template-columns: 1fr;
   }
 
-  .intro {
-    gap: 16px;
-  }
-
-  .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-
-  .page {
-    --background: #000;
-    --foreground: #000;
-
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
+  .pillar {
+    padding-bottom: var(--space-3xl);
   }
 }

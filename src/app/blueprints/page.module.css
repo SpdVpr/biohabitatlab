@@ -1,0 +1,308 @@
+.main {
+    padding-top: 80px;
+}
+
+/* ===================================================
+   HEADER
+   =================================================== */
+.header {
+    padding: var(--space-4xl) 0;
+    background: var(--color-surface);
+    text-align: center;
+}
+
+.header h1 {
+    margin-top: var(--space-sm);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+.headerDesc {
+    max-width: 600px;
+    margin: var(--space-lg) auto 0;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+}
+
+/* ===================================================
+   CATEGORY CARDS - Flagship Style
+   =================================================== */
+.categoriesSection {
+    padding: var(--space-4xl) 0;
+    background: var(--color-background);
+}
+
+.categoryGrid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+}
+
+.categoryCard {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    min-height: 420px;
+    background: var(--color-surface);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.categoryCard:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+}
+
+/* Alternate layout for even cards */
+.categoryCard:nth-child(even) {
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.categoryCard:nth-child(even) .categoryImage {
+    order: 2;
+}
+
+.categoryCard:nth-child(even) .categoryContent {
+    order: 1;
+}
+
+/* Image section */
+.categoryImage {
+    position: relative;
+    min-height: 100%;
+}
+
+.categoryOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0, 71, 171, 0.1) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+/* Content section */
+.categoryContent {
+    padding: var(--space-2xl);
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryMeta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+}
+
+.categoryNumber {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+.categoryTitle {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: var(--color-text-primary);
+    line-height: 1.2;
+}
+
+.categorySubtitle {
+    font-size: 1rem;
+    color: var(--color-focus-blue);
+    margin-top: var(--space-xs);
+}
+
+.categoryObjective {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+    margin-top: var(--space-lg);
+    flex-grow: 1;
+}
+
+.categoryStats {
+    display: flex;
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--color-border);
+}
+
+.stat {
+    text-align: center;
+}
+
+.statValue {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-focus-blue);
+}
+
+.statLabel {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.categoryArrow {
+    display: inline-flex;
+    align-items: center;
+    margin-top: var(--space-lg);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-focus-blue);
+}
+
+.categoryCard:hover .categoryArrow {
+    text-decoration: underline;
+}
+
+/* Category accent colors */
+.categoryLight {
+    border-left: 4px solid var(--color-focus-blue);
+}
+
+.categorySound {
+    border-left: 4px solid var(--color-deep-amber);
+}
+
+.categoryRecovery {
+    border-left: 4px solid var(--color-deep-amber);
+}
+
+/* ===================================================
+   HOW IT WORKS SECTION
+   =================================================== */
+.howSection {
+    padding: var(--space-4xl) 0;
+    background: var(--color-surface);
+}
+
+.howHeader {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+}
+
+.howHeader h2 {
+    margin-top: var(--space-sm);
+}
+
+.howDesc {
+    max-width: 600px;
+    margin: var(--space-md) auto 0;
+    color: var(--color-text-secondary);
+}
+
+.howGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+}
+
+.howStep {
+    text-align: center;
+    padding: var(--space-xl);
+    background: var(--color-background);
+    border-radius: 12px;
+}
+
+.howNumber {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background: var(--color-focus-blue);
+    border-radius: 50%;
+    margin-bottom: var(--space-md);
+}
+
+.howStep h3 {
+    font-size: 1rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-sm);
+}
+
+.howStep p {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* ===================================================
+   CTA SECTION
+   =================================================== */
+.ctaSection {
+    padding: var(--space-4xl) 0;
+    background: var(--color-background);
+}
+
+.ctaBox {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: var(--space-3xl);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+}
+
+.ctaBox h2 {
+    margin-bottom: var(--space-md);
+}
+
+.ctaBox p {
+    color: var(--color-text-secondary);
+    margin: 0 auto var(--space-xl);
+    max-width: 100%;
+    line-height: 1.7;
+}
+
+.ctaBox p strong {
+    color: var(--color-focus-blue);
+}
+
+/* ===================================================
+   RESPONSIVE
+   =================================================== */
+@media (max-width: 1024px) {
+    .categoryCard {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .categoryCard:nth-child(even) {
+        grid-template-columns: 1fr;
+    }
+
+    .categoryCard:nth-child(even) .categoryImage,
+    .categoryCard:nth-child(even) .categoryContent {
+        order: unset;
+    }
+
+    .categoryImage {
+        min-height: 280px;
+    }
+
+    .howGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .howGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .categoryStats {
+        justify-content: center;
+    }
+}

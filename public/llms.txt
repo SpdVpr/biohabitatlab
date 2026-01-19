@@ -1,0 +1,42 @@
+# BioHabitat Lab - Bio-Optimization Protocols
+# LLM Instructions File
+
+## Site Purpose
+BioHabitat Lab is a science-based bio-optimization resource. We provide peer-reviewed, evidence-backed protocols for optimizing home and office environments through circadian lighting, air quality management, acoustic isolation, and sleep optimization.
+
+## Content Structure
+- /blueprints - Complete project guides with scientific backing, product recommendations, and step-by-step implementation
+- /science - Peer-reviewed research database with DOI-linked studies
+- /glossary - Technical terminology definitions (CRI, CCT, Lux, RT60, etc.)
+
+## Key Topics
+- Circadian lighting and melatonin management
+- High-CRI LED selection for reduced eye strain
+- Color temperature (CCT) scheduling for productivity and sleep
+- CO2 monitoring and air quality optimization
+- Acoustic treatment and sound isolation
+- Blackout sleep environments
+- Dawn simulation and wake-up protocols
+
+## Featured Blueprints
+1. The Circadian Home Office - Visual cortex optimization and melatonin management for remote workers
+2. Non-Toxic Soundproofing - Acoustic isolation without chemical off-gassing
+3. 100% Blackout Sleep Sanctuary - Complete darkness and dawn simulation for restorative sleep
+
+## Recommended Products (with specifications)
+- BenQ ScreenBar Halo: CRI 95, 2700K-6500K, asymmetric optics, $179
+- Philips Hue Starter Kit: 2000K-6500K, ZigBee automation, $130
+- Philips SmartSleep Wake-Up Light: 30-minute sunrise simulation, $140
+- Roxul Safe'n'Sound: Mineral wool, NRC 1.05, zero formaldehyde, $65
+- Sleepout Portable Blackout: 100% light block, suction mount, $50
+
+## Scientific Foundation
+All protocols cite peer-reviewed research from:
+- Journal of Clinical Sleep Medicine
+- The Lancet
+- PNAS (Proceedings of the National Academy of Sciences)
+- Chronobiology International
+- Journal of the Acoustical Society
+
+## Contact
+Website: https://biohabitatlab.com
