@@ -134,7 +134,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B0DK59YKRS?tag=biohabitatlab-20",
                 price: "$179",
                 whyThisOne: "Mounts directly on your monitor, so it illuminates your desk without creating glare on the screen. The asymmetric optics are key—light goes down onto your workspace, not into your eyes. The wireless controller lets you adjust color temperature instantly.",
-                image: "https://m.media-amazon.com/images/I/61QqxPbXDEL._AC_SL1500_.jpg",
+                image: "/products/benq-screenbar.png",
             },
             {
                 name: "Philips Hue White and Color Starter Kit",
@@ -143,7 +143,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B0BKTBP31Y?tag=biohabitatlab-20",
                 price: "$135",
                 whyThisOne: "The Hue Bridge enables true automation—lights change color temperature automatically based on your schedule. Install bulbs in your main room fixture and any lamps. The 2000K–6500K range covers both energizing morning light and relaxing evening amber.",
-                image: "https://m.media-amazon.com/images/I/61cFxPbPPAL._AC_SL1500_.jpg",
+                image: "/products/philips-hue.png",
             },
             {
                 name: "Elgato Key Light Air",
@@ -152,7 +152,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B082QHRZFW?tag=biohabitatlab-20",
                 price: "$130",
                 whyThisOne: "If you're on video calls frequently, this provides professional-quality face lighting. The high CRI means you look natural on camera. Can be controlled via app to match your room's ambient light temperature.",
-                image: "https://m.media-amazon.com/images/I/71YJDyNY6TL._AC_SL1500_.jpg",
+                image: "/products/elgato-keylight.png",
             },
         ],
         steps: [
@@ -276,7 +276,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B01N9M4NH2?tag=biohabitatlab-20",
                 price: "$55",
                 whyThisOne: "This is the gold standard for acoustic absorption that's also non-toxic. Unlike fiberglass (itchy, potentially irritating) or foam (off-gassing), mineral wool is made from stone and contains no formaldehyde binders. Cut it to size and wrap in breathable fabric for DIY acoustic panels.",
-                image: "https://m.media-amazon.com/images/I/71eTDNqjd-L._AC_SL1500_.jpg",
+                image: "/products/rockwool.png",
             },
             {
                 name: "DEKIRU 12 Pack Acoustic Panels",
@@ -285,7 +285,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B08CXKL5LH?tag=biohabitatlab-20",
                 price: "$26",
                 whyThisOne: "Ready-to-mount acoustic panels that look professional and work effectively. No DIY assembly needed—just mount with the included tape or hanging tabs. The beveled edge design adds visual interest to any room.",
-                image: "https://m.media-amazon.com/images/I/71UezAAGltL._AC_SL1500_.jpg",
+                image: "/products/acoustic-panels.png",
             },
             {
                 name: "Keliiyo Door Seal Strip Kit",
@@ -294,7 +294,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B07H3N1VTQ?tag=biohabitatlab-20",
                 price: "$15",
                 whyThisOne: "The biggest weak point in any room is the door. Sound travels through the gaps around the frame. This kit seals all four sides with dense silicone weatherstripping that blocks both sound and drafts. Easy 30-minute install.",
-                image: "https://m.media-amazon.com/images/I/71F2aNq50wL._AC_SL1500_.jpg",
+                image: "/products/door-seal.png",
             },
         ],
         steps: [
@@ -408,7 +408,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B08ZNTKD5D?tag=biohabitatlab-20",
                 price: "$25",
                 whyThisOne: "Uses suction cups to seal directly against the window frame for zero light gaps. Velcro tabs allow adjustable sizing for any window. Includes travel bag so you can take it on trips for consistent sleep quality in hotels. Machine washable.",
-                image: "https://m.media-amazon.com/images/I/71SJq3yWKNL._AC_SL1500_.jpg",
+                image: "/products/blackout-curtain.png",
             },
             {
                 name: "Philips SmartSleep Wake-Up Light HF3520",
@@ -417,7 +417,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B0093162RM?tag=biohabitatlab-20",
                 price: "$140",
                 whyThisOne: "Starts as a dim red glow 30 minutes before your alarm time, gradually brightening to simulate sunrise. Your brain registers increasing light and prepares to wake naturally. Much gentler than a phone blaring. Backup sound alarm if you're a heavy sleeper.",
-                image: "https://m.media-amazon.com/images/I/71wKdHJddPL._AC_SL1500_.jpg",
+                image: "/products/wakeup-light.png",
             },
             {
                 name: "LOHAS Amber LED Night Light (4-pack)",
@@ -426,7 +426,7 @@ export const blueprints: Blueprint[] = [
                 link: "https://www.amazon.com/dp/B07GXBBXGQ?tag=biohabitatlab-20",
                 price: "$16",
                 whyThisOne: "For bathroom trips at night, you need some light—but not white or blue light that kills melatonin. These emit pure amber light (590nm wavelength) that allows you to see without disrupting sleep hormones. Automatic dusk-to-dawn sensor so they turn on when it gets dark.",
-                image: "https://m.media-amazon.com/images/I/71ZD1PQKWKL._AC_SL1500_.jpg",
+                image: "/products/amber-nightlight.png",
             },
         ],
         steps: [
