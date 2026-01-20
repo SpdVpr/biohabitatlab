@@ -24,7 +24,6 @@ export type Product = {
     link: string;
     price?: string;
     whyThisOne?: string;
-    image?: string;
 };
 
 export type Blueprint = {
@@ -131,28 +130,25 @@ export const blueprints: Blueprint[] = [
                 name: "BenQ ScreenBar Halo",
                 role: "Primary Task Lighting",
                 spec: "CRI 95, 2700K–6500K, Asymmetric Optics",
-                link: "https://www.amazon.com/dp/B0DK59YKRS?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for BenQ ScreenBar Halo
                 price: "$179",
                 whyThisOne: "Mounts directly on your monitor, so it illuminates your desk without creating glare on the screen. The asymmetric optics are key—light goes down onto your workspace, not into your eyes. The wireless controller lets you adjust color temperature instantly.",
-                image: "/products/benq-screenbar.png",
             },
             {
                 name: "Philips Hue White and Color Starter Kit",
                 role: "Ambient Room Automation",
                 spec: "2000K–6500K, 16M colors, ZigBee + Bluetooth",
-                link: "https://www.amazon.com/dp/B0BKTBP31Y?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for Philips Hue Starter Kit
                 price: "$135",
                 whyThisOne: "The Hue Bridge enables true automation—lights change color temperature automatically based on your schedule. Install bulbs in your main room fixture and any lamps. The 2000K–6500K range covers both energizing morning light and relaxing evening amber.",
-                image: "/products/philips-hue.png",
             },
             {
                 name: "Elgato Key Light Air",
                 role: "Video Call Lighting",
                 spec: "CRI 96, 2900K–7000K, 1400 Lumens",
-                link: "https://www.amazon.com/dp/B082QHRZFW?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for Elgato Key Light Air
                 price: "$130",
                 whyThisOne: "If you're on video calls frequently, this provides professional-quality face lighting. The high CRI means you look natural on camera. Can be controlled via app to match your room's ambient light temperature.",
-                image: "/products/elgato-keylight.png",
             },
         ],
         steps: [
@@ -273,28 +269,25 @@ export const blueprints: Blueprint[] = [
                 name: "ROCKWOOL Safe 'n' Sound Insulation",
                 role: "Wall Cavity / DIY Panel Core",
                 spec: "Mineral Wool, NRC 1.05, Zero Formaldehyde",
-                link: "https://www.amazon.com/dp/B01N9M4NH2?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for ROCKWOOL Safe n Sound
                 price: "$55",
                 whyThisOne: "This is the gold standard for acoustic absorption that's also non-toxic. Unlike fiberglass (itchy, potentially irritating) or foam (off-gassing), mineral wool is made from stone and contains no formaldehyde binders. Cut it to size and wrap in breathable fabric for DIY acoustic panels.",
-                image: "/products/rockwool.png",
             },
             {
                 name: "DEKIRU 12 Pack Acoustic Panels",
                 role: "Ready-Made Wall Treatment",
                 spec: "High-Density Polyester, NRC 0.85, Fire Retardant",
-                link: "https://www.amazon.com/dp/B08CXKL5LH?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for DEKIRU Acoustic Panels
                 price: "$26",
                 whyThisOne: "Ready-to-mount acoustic panels that look professional and work effectively. No DIY assembly needed—just mount with the included tape or hanging tabs. The beveled edge design adds visual interest to any room.",
-                image: "/products/acoustic-panels.png",
             },
             {
                 name: "Keliiyo Door Seal Strip Kit",
                 role: "Sound Isolation",
                 spec: "Silicone weatherstripping + door sweep",
-                link: "https://www.amazon.com/dp/B07H3N1VTQ?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for Door Seal Kit
                 price: "$15",
                 whyThisOne: "The biggest weak point in any room is the door. Sound travels through the gaps around the frame. This kit seals all four sides with dense silicone weatherstripping that blocks both sound and drafts. Easy 30-minute install.",
-                image: "/products/door-seal.png",
             },
         ],
         steps: [
@@ -405,28 +398,25 @@ export const blueprints: Blueprint[] = [
                 name: "Amazon Basics Portable Blackout Curtain",
                 role: "Window Light Elimination",
                 spec: "100% Light Block, Suction Cup Mount, Travel-Friendly",
-                link: "https://www.amazon.com/dp/B08ZNTKD5D?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for Blackout Curtain
                 price: "$25",
                 whyThisOne: "Uses suction cups to seal directly against the window frame for zero light gaps. Velcro tabs allow adjustable sizing for any window. Includes travel bag so you can take it on trips for consistent sleep quality in hotels. Machine washable.",
-                image: "/products/blackout-curtain.png",
             },
             {
                 name: "Philips SmartSleep Wake-Up Light HF3520",
                 role: "Dawn Simulation Alarm",
                 spec: "30-minute Sunrise, 20 Brightness Levels, Nature Sounds",
-                link: "https://www.amazon.com/dp/B0093162RM?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for Philips Wake-Up Light
                 price: "$140",
                 whyThisOne: "Starts as a dim red glow 30 minutes before your alarm time, gradually brightening to simulate sunrise. Your brain registers increasing light and prepares to wake naturally. Much gentler than a phone blaring. Backup sound alarm if you're a heavy sleeper.",
-                image: "/products/wakeup-light.png",
             },
             {
                 name: "LOHAS Amber LED Night Light (4-pack)",
                 role: "Safe Nighttime Navigation",
                 spec: "590nm Amber (Zero Blue), Dusk-to-Dawn Sensor",
-                link: "https://www.amazon.com/dp/B07GXBBXGQ?tag=biohabitatlab-20",
+                link: "#", // TODO: Add SiteStripe link for Amber Night Light
                 price: "$16",
                 whyThisOne: "For bathroom trips at night, you need some light—but not white or blue light that kills melatonin. These emit pure amber light (590nm wavelength) that allows you to see without disrupting sleep hormones. Automatic dusk-to-dawn sensor so they turn on when it gets dark.",
-                image: "/products/amber-nightlight.png",
             },
         ],
         steps: [

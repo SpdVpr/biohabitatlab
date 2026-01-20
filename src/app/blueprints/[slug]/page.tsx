@@ -234,15 +234,6 @@ export default async function BlueprintPage({ params }: Props) {
                         <div className={styles.productGrid}>
                             {blueprint.products.map((product, index) => (
                                 <div key={index} className={styles.productCard}>
-                                    {product.image && (
-                                        <div className={styles.productImageWrapper}>
-                                            <img
-                                                src={product.image}
-                                                alt={product.name}
-                                                className={styles.productImage}
-                                            />
-                                        </div>
-                                    )}
                                     <div className={styles.productHeader}>
                                         <span className={styles.productNumber}>{index + 1}</span>
                                         <div>
@@ -259,9 +250,11 @@ export default async function BlueprintPage({ params }: Props) {
                                     {product.whyThisOne && (
                                         <p className={styles.productWhy}>{product.whyThisOne}</p>
                                     )}
-                                    <a href={product.link} target="_blank" rel="noopener noreferrer" className={styles.productLink}>
-                                        View on Amazon →
-                                    </a>
+                                    {product.link !== "#" && (
+                                        <a href={product.link} target="_blank" rel="noopener noreferrer" className={styles.productLink}>
+                                            View on Amazon →
+                                        </a>
+                                    )}
                                 </div>
                             ))}
                         </div>
