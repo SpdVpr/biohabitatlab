@@ -281,6 +281,22 @@
     border-radius: 12px;
 }
 
+.productImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-lg);
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: var(--space-lg);
+}
+
+.productImage {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
 .productHeader {
     display: flex;
     align-items: flex-start;
