@@ -130,24 +130,24 @@ export const blueprints: Blueprint[] = [
                 name: "BenQ ScreenBar Halo",
                 role: "Primary Task Lighting",
                 spec: "CRI 95, 2700K–6500K, Asymmetric Optics",
-                link: "#", // TODO: Add SiteStripe link for BenQ ScreenBar Halo
-                price: "$179",
+                link: "https://amzn.to/49Fst7a",
+                price: "$39.95",
                 whyThisOne: "Mounts directly on your monitor, so it illuminates your desk without creating glare on the screen. The asymmetric optics are key—light goes down onto your workspace, not into your eyes. The wireless controller lets you adjust color temperature instantly.",
             },
             {
                 name: "Philips Hue White and Color Starter Kit",
                 role: "Ambient Room Automation",
                 spec: "2000K–6500K, 16M colors, ZigBee + Bluetooth",
-                link: "#", // TODO: Add SiteStripe link for Philips Hue Starter Kit
-                price: "$135",
+                link: "https://amzn.to/4k8i5d7",
+                price: "$96.99",
                 whyThisOne: "The Hue Bridge enables true automation—lights change color temperature automatically based on your schedule. Install bulbs in your main room fixture and any lamps. The 2000K–6500K range covers both energizing morning light and relaxing evening amber.",
             },
             {
                 name: "Elgato Key Light Air",
                 role: "Video Call Lighting",
                 spec: "CRI 96, 2900K–7000K, 1400 Lumens",
-                link: "#", // TODO: Add SiteStripe link for Elgato Key Light Air
-                price: "$130",
+                link: "https://amzn.to/4pRm3YP",
+                price: "$139.99",
                 whyThisOne: "If you're on video calls frequently, this provides professional-quality face lighting. The high CRI means you look natural on camera. Can be controlled via app to match your room's ambient light temperature.",
             },
         ],
@@ -266,27 +266,27 @@ export const blueprints: Blueprint[] = [
         ],
         products: [
             {
-                name: "ROCKWOOL Safe 'n' Sound Insulation",
+                name: "KTOESHEO Pyramid Sound Proof Foam (2 Pack)",
                 role: "Wall Cavity / DIY Panel Core",
-                spec: "Mineral Wool, NRC 1.05, Zero Formaldehyde",
-                link: "#", // TODO: Add SiteStripe link for ROCKWOOL Safe n Sound
-                price: "$55",
-                whyThisOne: "This is the gold standard for acoustic absorption that's also non-toxic. Unlike fiberglass (itchy, potentially irritating) or foam (off-gassing), mineral wool is made from stone and contains no formaldehyde binders. Cut it to size and wrap in breathable fabric for DIY acoustic panels.",
+                spec: "48x24x2 Inch, High Density Soundproof",
+                link: "https://amzn.to/464abLJ",
+                price: "$37.99",
+                whyThisOne: "Large pyramid foam panels provide excellent sound absorption for recording spaces and home offices. The pyramid shape scatters sound waves effectively, reducing echo and reverberation. Easy to cut to size for custom installations.",
             },
             {
-                name: "DEKIRU 12 Pack Acoustic Panels",
+                name: "DEKIRU Self Adhesive Acoustic Panels (18 Pack)",
                 role: "Ready-Made Wall Treatment",
-                spec: "High-Density Polyester, NRC 0.85, Fire Retardant",
-                link: "#", // TODO: Add SiteStripe link for DEKIRU Acoustic Panels
-                price: "$26",
-                whyThisOne: "Ready-to-mount acoustic panels that look professional and work effectively. No DIY assembly needed—just mount with the included tape or hanging tabs. The beveled edge design adds visual interest to any room.",
+                spec: "12x10x0.4 Inch Hexagon, Self-Adhesive",
+                link: "https://amzn.to/45obGnU",
+                price: "$29.99",
+                whyThisOne: "Ready-to-mount hexagonal acoustic panels that look professional and work effectively. Self-adhesive backing means no tools needed—just peel and stick. The hexagon design creates a modern, geometric look.",
             },
             {
-                name: "Keliiyo Door Seal Strip Kit",
+                name: "Keliiyo Door Weather Stripping Kit",
                 role: "Sound Isolation",
-                spec: "Silicone weatherstripping + door sweep",
-                link: "#", // TODO: Add SiteStripe link for Door Seal Kit
-                price: "$15",
+                spec: "Silicone weatherstripping for doors and windows",
+                link: "https://amzn.to/3LCMBPo",
+                price: "$11.99",
                 whyThisOne: "The biggest weak point in any room is the door. Sound travels through the gaps around the frame. This kit seals all four sides with dense silicone weatherstripping that blocks both sound and drafts. Easy 30-minute install.",
             },
         ],
@@ -398,25 +398,25 @@ export const blueprints: Blueprint[] = [
                 name: "Amazon Basics Portable Blackout Curtain",
                 role: "Window Light Elimination",
                 spec: "100% Light Block, Suction Cup Mount, Travel-Friendly",
-                link: "#", // TODO: Add SiteStripe link for Blackout Curtain
-                price: "$25",
+                link: "https://amzn.to/3Lz7fjn",
+                price: "$19.97",
                 whyThisOne: "Uses suction cups to seal directly against the window frame for zero light gaps. Velcro tabs allow adjustable sizing for any window. Includes travel bag so you can take it on trips for consistent sleep quality in hotels. Machine washable.",
             },
             {
                 name: "Philips SmartSleep Wake-Up Light HF3520",
                 role: "Dawn Simulation Alarm",
-                spec: "30-minute Sunrise, 20 Brightness Levels, Nature Sounds",
-                link: "#", // TODO: Add SiteStripe link for Philips Wake-Up Light
-                price: "$140",
+                spec: "Colored Sunrise/Sunset, 5 Natural Sounds, FM Radio",
+                link: "https://amzn.to/3Nu1dRJ",
+                price: "$145.29",
                 whyThisOne: "Starts as a dim red glow 30 minutes before your alarm time, gradually brightening to simulate sunrise. Your brain registers increasing light and prepares to wake naturally. Much gentler than a phone blaring. Backup sound alarm if you're a heavy sleeper.",
             },
             {
-                name: "LOHAS Amber LED Night Light (4-pack)",
+                name: "LOHAS Amber LED Night Light",
                 role: "Safe Nighttime Navigation",
-                spec: "590nm Amber (Zero Blue), Dusk-to-Dawn Sensor",
-                link: "#", // TODO: Add SiteStripe link for Amber Night Light
-                price: "$16",
-                whyThisOne: "For bathroom trips at night, you need some light—but not white or blue light that kills melatonin. These emit pure amber light (590nm wavelength) that allows you to see without disrupting sleep hormones. Automatic dusk-to-dawn sensor so they turn on when it gets dark.",
+                spec: "Dimmable, Light Sensor, Yellow/Amber Glow",
+                link: "https://amzn.to/3NpBNVn",
+                price: "$17.99",
+                whyThisOne: "For bathroom trips at night, you need some light—but not white or blue light that kills melatonin. These emit pure amber light that allows you to see without disrupting sleep hormones. Automatic light sensor so they turn on when it gets dark.",
             },
         ],
         steps: [
